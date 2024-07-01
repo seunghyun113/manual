@@ -1,8 +1,23 @@
-# manual
-깃허브사용법을 연습하고있습니다.
+# 텍스트 꾸미기
 
-작성한소스에 대한 간단한 소개글을 작성합니다.
+**github**는 *원격저장소*를 제공하는 ~~서비스이기~~ 때문에 
 
-여기에 원하는 내용을 입력하세요.
+온라인상에서 git의 **버전관리기능**을 사용할수 있습니다.
 
-마크다운 문법을 사용해서 원하는 내용을 입력하세요.
+한줄짜리 소스코드는 `function add(x,y) { return x + y; }` 처럼 사용합니다.
+
+```
+javascript
+<script>
+  let now = new Date();
+  let display = new.toLocalTimeString();
+  document.write(`현재 시각은 ${display} 입니다.`);
+</script>
+```
+<주소>
+
+<http://www.naver.com>
+
+[네이버](http://www.naver.com)
+
+[네이버](http://www.naver.com, "클릭하면 네이버 사이트로 이동합니다.")
